@@ -1,10 +1,18 @@
-  	import React from 'react';  	
+  	import React from 'react';
+  	import {Link} from 'react-router-dom';  	
 	
-	export const HomeButton =  () => (
-		<div className="button">
-  		  			<button>Czytaj więcej</button>
+	export const HomeButton = ({data}) => {
+
+
+			return (
+				<div className="button">
+  		  			<button>
+  		  				<Link to={{pathname: "/test/" + data.id}}>Czytaj więcej</Link>
+  		  			</button>
   		  		</div>
-	)
+
+  		  		)
+	}
 		  		  	
 
 
@@ -38,8 +46,8 @@
 	  	  		  		</div>
 	  	  		  		<div className="col-8">
 	  	  			  		<h3>{data.title}</h3>
-	  	  		  			<p>{data.description} </p>
-	  	  		  			<HomeButton />
+	  	  		  			<p>{data.lead} </p>
+	  	  		  			<HomeButton {...props}/>
 	  	  		  		</div>
 	  	  			</div>
 	  	  		)

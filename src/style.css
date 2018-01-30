@@ -8,7 +8,8 @@ nav ul li {
 
 }
 
-ul li a {
+ul li a,
+button a {
 	color: #fff;
 	text-decoration: none;
 }

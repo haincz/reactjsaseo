@@ -1,10 +1,11 @@
 import React from 'react';
 import {HomeButton, HomeListMedia, HomeHeader, HomeListDetail} from './Home'
-import {home_data} from '../homedata';
+import {content_data} from '../data';
 
   export	const HomeList = (list) => {
 
-    var list = home_data;
+
+    var list = content_data;
 
   		return (
   		
@@ -15,6 +16,7 @@ import {home_data} from '../homedata';
   			<div className="container">
 
   				{list.map((data) => <HomeListDetail data={data} key={data.id} />)}
+          
   			</div>
   		</div>
   		)

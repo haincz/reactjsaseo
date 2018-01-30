@@ -5,11 +5,12 @@ import { BrowserRouter as Router, Route, IndexRoute, browserHistory} from 'react
 import './style.css';
 
 import {HomeList, App} from './components/App';
-import {home_data} from './homedata';
+import {content_data} from './data';
 import {Layout} from './components/Layout';
 import {Contact} from './components/Contact';
 import {AboutMe} from './components/About';
-
+import {SinglePage} from './components/Singlepage'
+import {HomeListDetail} from './components/Home'
 
 
 
@@ -20,6 +21,7 @@ ReactDOM.render(
 	      	<Route exact path="/" component={HomeList} />
 	      	<Route path="/about" component={AboutMe} />
 	      	<Route path="/contact" component={Contact} />
+	      	<Route path="/test/:id" component={SinglePage}/>
     	</Layout>
   	</Router>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink , IndexLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 export const Navbar = (props) => (
 <nav className="row">
@@ -7,7 +7,7 @@ export const Navbar = (props) => (
 
 	<ul className="nav">
 		<li>
-			<NavLink to="/" className="navbar-brand">Strona Główna</NavLink>
+			<NavLink to="/" className="navbar">Strona Główna</NavLink>
 		</li>
 		<li>
 			<NavLink activeClassName="active" to="about">O mnie</NavLink>
