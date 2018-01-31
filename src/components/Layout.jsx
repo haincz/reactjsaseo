@@ -2,16 +2,17 @@ import React from 'react';
 import {Navbar} from './Navbar';
 
 export const Layout = (props) => (
+
   <div>
-    <header className="header">
+      <header className="header">
+        <div className="container">
+            <Navbar />
+        </div>
+    </header>
       <div className="container">
-          <Navbar />
+          {props.children}
       </div>
-  </header>
-    <div className="container">
-        {props.children}
+      <footer className="footer">
+      </footer>
     </div>
-    <footer className="footer">
-    </footer>
-  </div>
 )

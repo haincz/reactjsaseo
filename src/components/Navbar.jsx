@@ -10,10 +10,10 @@ export const Navbar = (props) => (
 			<NavLink to="/" className="navbar">Strona Główna</NavLink>
 		</li>
 		<li>
-			<NavLink activeClassName="active" to="about">O mnie</NavLink>
+			<NavLink activeClassName="active" to="/about">O mnie</NavLink>
 		</li>
 		<li>
-			<NavLink activeClassName="active" to="contact">Kontakt</NavLink>
+			<NavLink activeClassName="active" to="/contact">Kontakt</NavLink>
 		</li>
 	</ul>
   </div>
