@@ -1,10 +1,13 @@
 import React from 'react'; 
-
+import MetaTags from 'react-meta-tags';
 
 export const Contact = () => {
  		  	return	(
 
- 		  		
+				<div>
+ 		  			<MetaTags>
+           				 <title>Kontakt</title>
+          			</MetaTags>
 	  	  			<div className="row">
 	  	  		  		<div className="col-4">
 	  	  		  			<h1>Kontakt</h1>
@@ -14,5 +17,6 @@ export const Contact = () => {
 	  	  		  			<p>np. Telefon</p>
 	  	  		  		</div>
 	  	  			</div>
+	  	  		</div>
 	  	  		)
   	}

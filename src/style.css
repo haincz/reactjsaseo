@@ -5,6 +5,22 @@ box-sizing: border-box;
 nav ul li {
     display: block;
     float: left;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+nav ul li:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
@@ -54,8 +70,7 @@ p {
 	float: right;
 }
 
-button,
-li {
+button {
 	background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -70,9 +85,13 @@ li {
 }
 
 
-button:hover,
-li:hover {
+button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+article {
+	width: 800px;
+    margin: 0 auto;
 }
 
 .col-1 {width: 8.33%;}

@@ -1,6 +1,7 @@
 import React from 'react';
 import {HomeButton, HomeListMedia, HomeHeader, HomeListDetail} from './Home'
 import {content_data} from '../data';
+import MetaTags from 'react-meta-tags';
 
   export	const HomeList = (list) => {
 
@@ -9,7 +10,11 @@ import {content_data} from '../data';
 
   		return (
   		
-  		<div>		  	
+
+  		<div>	
+        <MetaTags>
+          <title>React JS a SEO</title>
+        </MetaTags>	  	
  		  	<div>			
  		  		<HomeHeader />		
   			</div>
