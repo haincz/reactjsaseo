@@ -21,7 +21,7 @@ ReactDOM.render(
 	      	<Route exact path="/" component={HomeList} />
 	      	<Route path="/about" component={AboutMe} />
 	      	<Route path="/contact" component={Contact} />
-	      	<Route path="/test/:id" component={SinglePage}/>
+	      	<Route path="/:id/:id" component={SinglePage}/>
     	</Layout>
   	</Router>
 

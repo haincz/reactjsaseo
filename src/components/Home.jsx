@@ -3,11 +3,12 @@
 	
 	export const HomeButton = ({data}) => {
 
+		var url = data.title.replace(/ /g, '-').toLowerCase()
 
 			return (
 				<div className="button">
   		  			<button>
-  		  				<Link to={{pathname: "/test/" + data.id}}>Czytaj więcej</Link>
+  		  				<Link to={{pathname: "/" + url + "/" + data.id}}>Czytaj więcej</Link>
   		  			</button>
   		  		</div>
 
