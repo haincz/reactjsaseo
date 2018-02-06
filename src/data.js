@@ -16,7 +16,7 @@ export var content_data = [
 	},
 	{
 		"id": 2,
-		"title": "React JS - framework",
+		"title": "Framework React JS",
 		"lead" : "Przybliżenie frameworka React JS, który aktualnie jest jednym z najbardziej popularnych framworków",
 		"description": "<p>Tw&oacute;rcą React JS jest Jordan Walke, programista Facebooka, kt&oacute;ry inspirował się rozszerzeniem PHP &ndash; XHP. Framework JavaScriptowy znajduje swoje zastosowanie przy pisaniu interfejs&oacute;w aplikacji internetowych.<\/p><p>Cechą, kt&oacute;ra stanowi o wyjątkowości React jest wirtualny DOM. Dzięki niemu framework przechowuje cały DOM w pamięci, a po zmianie stanu &ndash; wykryciu r&oacute;żnic między wirtualnym DOM, właściwym DOM &ndash; aktualizuje tylko te elementy, kt&oacute;rych stan uległ zmianie.<\/p> <p>Kolejnym istotnym elementem, kt&oacute;ry wyr&oacute;żnia React jest JSX - rozszerzenie składniowe JavaScript, pozwalające tworzyć komponenty i opisać, jak powinien wyglądać interfejs użytkownika. &nbsp;JSX daje możliwość wstawiania kodu HTML (lub komponent&oacute;w React) bezpośrednio w kodzie, zamiast ciągu znak&oacute;w.<\/p> <p>Biblioteka REACT jest obecnie stosowana przez takie znane marki jak Netflix, Imgur, PayPal, Archive.org, Gamepedia, SeatGeek, HelloSign czy Walmart. W 2015 roku React.js był jednym z najpopularniejszych projekt&oacute;w na GitHubie, a obecnie jest jednym z najczęściej poruszanych wątk&oacute;w na developerskim forum Stack Overflow.<\/p>",
 		"image": "http://eduweb.pl/Images/Training/miniaturka-do-opisu-kursu_093c53c6-7395-4697-a141-4eae2db3d6a6.png",
