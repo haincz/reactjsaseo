@@ -11,7 +11,7 @@ import {Contact} from './components/Contact';
 import {AboutMe} from './components/About';
 import {SinglePage} from './components/Singlepage'
 import {HomeListDetail} from './components/Home'
-import {NotFound} from './components/Notfound'
+// import {NotFound} from './components/Notfound'
 
 
 
@@ -25,7 +25,6 @@ ReactDOM.render(
 	      	<Route path="/contact" component={Contact} />
 	      	
 	      	<Route path="/:id/:id" component={SinglePage}/>
-	      	<Route component={NotFound} />
     	</Switch>
     	</Layout>
   	</Router>

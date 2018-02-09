@@ -1593,7 +1593,7 @@ var content_data = exports.content_data = [{
 	"id": 0,
 	"title": "Test React JS",
 	"lead": "Wszystkie informacje i dokumentacja dotycząca testu React JS na potrzeby SEO w wersji renderowania Clietn Side. Czy Google poradzi sobie i zaindeskuje poniższą stronę?",
-	"description": "<p>Test ten powstał w imię nauki, a czegoż by innego powstać m&oacute;gł? Argument&oacute;w za jego przeprowadzeniem miałem kilka, poszerzenie wiedzy, chęć zmierzenia się czymś nowym oraz poznanie jednego z najpopularniejszych framework&oacute;w od jego zaplecza, czyli od dupy strony.</p><p>Założenia testu składają się z kilku etap&oacute;w:</p><ol><li>Stworzenie strony w React &ndash; rękami SEOwca by lepiej zrozumieć mechanizm działania frameworka</li><li>Opublikowanie strony na serwerze dostępnym dla robot&oacute;w i ludzi rzecz jasna też</li><li>Podpięcie do narzędzi Google Search Console</li><li>Przesłanie do indeksu strony gł&oacute;wnej</li><li>Analiza strony w oparciu narzędzie GSC &ndash; gł&oacute;wnie pobranie jej jako Google</li><li>Sprawdzania cache strony w wyszukiwarce oraz indeksowania i prędkości tego indeksowania</li></ol><p>Dla os&oacute;b, kt&oacute;re nie miały do czynienia to od razu zaznaczę tutaj, że istnieje możliwość renderowania strony w React JS po stronie serwera, wartość i jakość takiego renderowania w służbie SEO jest na pewno wiele razy lepsza, ale ocena tej jakości i wartości zostanie dopiero przeprowadzona w kolejnych testach, po testach Client-Side.</p><p>R&oacute;żnica pomiędzy Client a Server jest ogromna. W przypadku Clien-Side widzimy tylko w źr&oacute;dle strony jeden element &lt;div&gt; w sekcji &lt;body&gt;, kt&oacute;ry pobierany jest przez React i metodą render tworzy wirtualne drzewo DOM, a następnie właściwy DOM.</p><p>Otwierając narzędzia dla developer&oacute;w, zobaczyć piękny szablon HTML, ale to właśnie jest coś, co może wprowadzić w błąd&hellip; a może i nie, bo przecież Google renderuje DOM, tylko kiedy, jak? Na te pytania właśnie ma też odpowiedzieć ten test.</p><p>W przypadku renderowania Server Side, mamy wygenerowany HTML dla żądanego adresu, przy czym ładowane są także pozostałe pliki JS, kt&oacute;re dają użytkownikowi możliwość poczucia, że strona działa Clinet Side. Z jednej strony brzmi fantastycznie, takie strony są szybkie i lekkie. Czy jednak na pewno są szybkie i lekkie dla robota wyszukiwarki. Ten temat jednak rozwiązany będzie na teście Reacta Server Side.</p><p>Starałem się napisać tą stronę zgodnie ze standardami, dlatego nie ma tutaj użytego natywnego Reacta, ale korzystam z szablon&oacute;w JSX, czyli tak jak to developerzy robią na co dzień. Co ważne, ten projekt nie pokazuje pełni możliwości React JS, bo nie ma w nim choćby ani jednego komponentu stanowego, ale one akurat dla pracy SEOwca nie są tak istotne.</p><p>Wszelka dostępna dokumentacja techniczna dostępna jest dla zainteresowanych na GitHubie: <a href=\"https://github.com/haincz/reactjsaseo/\">https://github.com/haincz/reactjsaseo/</a></p><p>Do stworzenia strony zostały użyte następujące biblioteki oraz pluginy:</p><p>&nbsp;&nbsp;&nbsp; react: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-dom: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-meta-tags: ^0.3.0</p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp; babel-core: ^6.26.0,</p><p>&nbsp;&nbsp;&nbsp; babel-loader: ^7.1.2,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-es2015: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react-hmre: ^1.1.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-stage-0: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; css-loader: ^0.28.9,</p><p>&nbsp;&nbsp;&nbsp; extract-text-webpack-plugin: ^3.0.2,</p><p>&nbsp;&nbsp;&nbsp; html-webpack-plugin: ^2.30.1,</p><p>&nbsp;&nbsp;&nbsp; react-hot-loader: ^3.1.3,</p><p>&nbsp;&nbsp;&nbsp; react-router: ^4.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-router-dom: ^4.2.2,</p><p>&nbsp;&nbsp;&nbsp; style-loader: ^0.19.1,</p><p>&nbsp;&nbsp;&nbsp; webpack: ^3.10.0,</p><p>&nbsp;&nbsp;&nbsp; webpack-dev-server: 2.11.1</p><p>Dodatkową istotną informacją jest fakt, że url tworzone są dynamicznie w oparciu o tak zwaną technologię History API.</p><h2>Dźień pierwszy:</h2><h3>site:</h3><h3>cache:</h3><h3>widoczność fragmentu tekstu:</h3><h3>Pobierz jako Google:</h3>",
+	"description": "<p>Test ten powstał w imię nauki, a czegoż by innego powstać m&oacute;gł? Argument&oacute;w za jego przeprowadzeniem miałem kilka, poszerzenie wiedzy, chęć zmierzenia się czymś nowym oraz poznanie jednego z najpopularniejszych framework&oacute;w od jego zaplecza, czyli od dupy strony.</p><p>Założenia testu składają się z kilku etap&oacute;w:</p><ol><li>Stworzenie strony w React &ndash; rękami SEOwca by lepiej zrozumieć mechanizm działania frameworka</li><li>Opublikowanie strony na serwerze dostępnym dla robot&oacute;w i ludzi rzecz jasna też</li><li>Podpięcie do narzędzi Google Search Console</li><li>Przesłanie do indeksu strony gł&oacute;wnej</li><li>Analiza strony w oparciu narzędzie GSC &ndash; gł&oacute;wnie pobranie jej jako Google</li><li>Sprawdzania cache strony w wyszukiwarce oraz indeksowania i prędkości tego indeksowania</li></ol><p>Dla os&oacute;b, kt&oacute;re nie miały do czynienia to od razu zaznaczę tutaj, że istnieje możliwość renderowania strony w React JS po stronie serwera, wartość i jakość takiego renderowania w służbie SEO jest na pewno wiele razy lepsza, ale ocena tej jakości i wartości zostanie dopiero przeprowadzona w kolejnych testach, po testach Client-Side.</p><p>R&oacute;żnica pomiędzy Client a Server jest ogromna. W przypadku Clien-Side widzimy tylko w źr&oacute;dle strony jeden element &lt;div&gt; w sekcji &lt;body&gt;, kt&oacute;ry pobierany jest przez React i metodą render tworzy wirtualne drzewo DOM, a następnie właściwy DOM.</p><p>Otwierając narzędzia dla developer&oacute;w, zobaczyć piękny szablon HTML, ale to właśnie jest coś, co może wprowadzić w błąd&hellip; a może i nie, bo przecież Google renderuje DOM, tylko kiedy, jak? Na te pytania właśnie ma też odpowiedzieć ten test.</p><p>W przypadku renderowania Server Side, mamy wygenerowany HTML dla żądanego adresu, przy czym ładowane są także pozostałe pliki JS, kt&oacute;re dają użytkownikowi możliwość poczucia, że strona działa Clinet Side. Z jednej strony brzmi fantastycznie, takie strony są szybkie i lekkie. Czy jednak na pewno są szybkie i lekkie dla robota wyszukiwarki. Ten temat jednak rozwiązany będzie na teście Reacta Server Side.</p><p>Starałem się napisać tą stronę zgodnie ze standardami, dlatego nie ma tutaj użytego natywnego Reacta, ale korzystam z szablon&oacute;w JSX, czyli tak jak to developerzy robią na co dzień. Co ważne, ten projekt nie pokazuje pełni możliwości React JS, bo nie ma w nim choćby ani jednego komponentu stanowego, ale one akurat dla pracy SEOwca nie są tak istotne.</p><p>Wszelka dostępna dokumentacja techniczna dostępna jest dla zainteresowanych na GitHubie: <a href=\"https://github.com/haincz/reactjsaseo/\">https://github.com/haincz/reactjsaseo/</a></p><p>Do stworzenia strony zostały użyte następujące biblioteki oraz pluginy:</p><p>&nbsp;&nbsp;&nbsp; react: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-dom: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-meta-tags: ^0.3.0</p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp; babel-core: ^6.26.0,</p><p>&nbsp;&nbsp;&nbsp; babel-loader: ^7.1.2,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-es2015: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react-hmre: ^1.1.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-stage-0: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; css-loader: ^0.28.9,</p><p>&nbsp;&nbsp;&nbsp; extract-text-webpack-plugin: ^3.0.2,</p><p>&nbsp;&nbsp;&nbsp; html-webpack-plugin: ^2.30.1,</p><p>&nbsp;&nbsp;&nbsp; react-hot-loader: ^3.1.3,</p><p>&nbsp;&nbsp;&nbsp; react-router: ^4.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-router-dom: ^4.2.2,</p><p>&nbsp;&nbsp;&nbsp; style-loader: ^0.19.1,</p><p>&nbsp;&nbsp;&nbsp; webpack: ^3.10.0,</p><p>&nbsp;&nbsp;&nbsp; webpack-dev-server: 2.11.1</p><p>Dodatkową istotną informacją jest fakt, że url tworzone są dynamicznie w oparciu o tak zwaną technologię History API.</p><h2>Dźień pierwszy:</h2><h3>site: 0</h3><h3>cache: czekamy do pierwszego zaindeksowania</h3><h3>widoczność fragmentu tekstu: j.w</h3><h3>Pobierz jako Google: </h3><img src='/src/image/fetchasgoogleday1.jpg'/>",
 	"image": "src/image/testreacjs.jpg"
 }, {
 	"id": 1,
@@ -1617,7 +1617,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(content_data, "content_data", "C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/data.js");
+	__REACT_HOT_LOADER__.register(content_data, "content_data", "C:/Users/Mateusz/Desktop/reactjsaseo/src/data.js");
 }();
 
 ;
@@ -2585,13 +2585,13 @@ var _temp = function () {
 				return;
 		}
 
-		__REACT_HOT_LOADER__.register(HomeButton, 'HomeButton', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeButton, 'HomeButton', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
 
-		__REACT_HOT_LOADER__.register(HomeListMedia, 'HomeListMedia', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeListMedia, 'HomeListMedia', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
 
-		__REACT_HOT_LOADER__.register(HomeHeader, 'HomeHeader', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeHeader, 'HomeHeader', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
 
-		__REACT_HOT_LOADER__.register(HomeListDetail, 'HomeListDetail', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeListDetail, 'HomeListDetail', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
 }();
 
 ;
@@ -2774,9 +2774,10 @@ var _Singlepage = __webpack_require__(89);
 
 var _Home = __webpack_require__(38);
 
-var _Notfound = __webpack_require__(90);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import {NotFound} from './components/Notfound'
+
 
 _reactDom2.default.render(_react2.default.createElement(
    _reactRouterDom.BrowserRouter,
@@ -2790,8 +2791,7 @@ _reactDom2.default.render(_react2.default.createElement(
          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _App.HomeList }),
          _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _About.AboutMe }),
          _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact.Contact }),
-         _react2.default.createElement(_reactRouterDom.Route, { path: '/:id/:id', component: _Singlepage.SinglePage }),
-         _react2.default.createElement(_reactRouterDom.Route, { component: _Notfound.NotFound })
+         _react2.default.createElement(_reactRouterDom.Route, { path: '/:id/:id', component: _Singlepage.SinglePage })
       )
    )
 ), document.getElementById('root'));
@@ -23785,7 +23785,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(HomeList, 'HomeList', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/App.jsx');
+  __REACT_HOT_LOADER__.register(HomeList, 'HomeList', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/App.jsx');
 }();
 
 ;
@@ -24116,7 +24116,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Layout, 'Layout', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Layout.jsx');
+    __REACT_HOT_LOADER__.register(Layout, 'Layout', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Layout.jsx');
 }();
 
 ;
@@ -24185,7 +24185,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(Navbar, 'Navbar', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Navbar.jsx');
+	__REACT_HOT_LOADER__.register(Navbar, 'Navbar', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Navbar.jsx');
 }();
 
 ;
@@ -24271,7 +24271,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(Contact, 'Contact', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Contact.jsx');
+	__REACT_HOT_LOADER__.register(Contact, 'Contact', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Contact.jsx');
 }();
 
 ;
@@ -24353,7 +24353,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(AboutMe, 'AboutMe', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/About.jsx');
+	__REACT_HOT_LOADER__.register(AboutMe, 'AboutMe', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/About.jsx');
 }();
 
 ;
@@ -24424,44 +24424,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SinglePage, 'SinglePage', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Singlepage.jsx');
-}();
-
-;
-
-/***/ }),
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-exports.NotFound = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var NotFound = exports.NotFound = function NotFound() {
-	return _react2.default.createElement(
-		"p",
-		{ className: "text-center" },
-		" Nie znaleziono strony... "
-	);
-};
-;
-
-var _temp = function () {
-	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-		return;
-	}
-
-	__REACT_HOT_LOADER__.register(NotFound, "NotFound", "C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Notfound.jsx");
+  __REACT_HOT_LOADER__.register(SinglePage, 'SinglePage', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Singlepage.jsx');
 }();
 
 ;
