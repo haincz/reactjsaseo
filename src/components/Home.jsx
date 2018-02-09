@@ -41,7 +41,7 @@
  		  	return	(
 
  		  		
-	  	  			<div className="row">
+	  	  			<div className="row list-elem">
 	  	  		  		<div className="col-4">
 	  	  		  			<HomeListMedia {...props} />
 	  	  		  		</div>

@@ -12,7 +12,7 @@ export const Contact = () => {
 	  	  		  		<div className="col-4">
 	  	  		  			<h1>Kontakt</h1>
 	  	  		  		</div>
-	  	  		  		<div className="col-8">
+	  	  		  		<div className="col-8 col-m-12">
 	  	  			  		<h3>Jakieś namiary na mnie</h3>
 	  	  		  			<p>Email: biuro@seojoker.pl</p>
 	  	  		  			<p>	Tel: 667604603</p>

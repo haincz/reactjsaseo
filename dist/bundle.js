@@ -1033,7 +1033,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(content_data, "content_data", "C:/Users/Mateusz/Desktop/reactjsaseo/src/data.js");
+	__REACT_HOT_LOADER__.register(content_data, "content_data", "C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/data.js");
 }();
 
 ;
@@ -2554,7 +2554,7 @@ var HomeListDetail = exports.HomeListDetail = function HomeListDetail(props) {
 
 		return _react2.default.createElement(
 				'div',
-				{ className: 'row' },
+				{ className: 'row list-elem' },
 				_react2.default.createElement(
 						'div',
 						{ className: 'col-4' },
@@ -2585,13 +2585,13 @@ var _temp = function () {
 				return;
 		}
 
-		__REACT_HOT_LOADER__.register(HomeButton, 'HomeButton', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeButton, 'HomeButton', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
 
-		__REACT_HOT_LOADER__.register(HomeListMedia, 'HomeListMedia', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeListMedia, 'HomeListMedia', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
 
-		__REACT_HOT_LOADER__.register(HomeHeader, 'HomeHeader', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeHeader, 'HomeHeader', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
 
-		__REACT_HOT_LOADER__.register(HomeListDetail, 'HomeListDetail', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Home.jsx');
+		__REACT_HOT_LOADER__.register(HomeListDetail, 'HomeListDetail', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Home.jsx');
 }();
 
 ;
@@ -23785,7 +23785,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(HomeList, 'HomeList', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/App.jsx');
+  __REACT_HOT_LOADER__.register(HomeList, 'HomeList', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/App.jsx');
 }();
 
 ;
@@ -24095,7 +24095,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Layout = exports.Layout = function Layout(props) {
     return _react2.default.createElement(
         'div',
-        null,
+        { className: 'layout' },
         _react2.default.createElement(
             'header',
             { className: 'container' },
@@ -24116,7 +24116,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Layout, 'Layout', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Layout.jsx');
+    __REACT_HOT_LOADER__.register(Layout, 'Layout', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Layout.jsx');
 }();
 
 ;
@@ -24185,7 +24185,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(Navbar, 'Navbar', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Navbar.jsx');
+	__REACT_HOT_LOADER__.register(Navbar, 'Navbar', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Navbar.jsx');
 }();
 
 ;
@@ -24239,7 +24239,7 @@ var Contact = exports.Contact = function Contact() {
 			),
 			_react2.default.createElement(
 				'div',
-				{ className: 'col-8' },
+				{ className: 'col-8 col-m-12' },
 				_react2.default.createElement(
 					'h3',
 					null,
@@ -24271,7 +24271,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(Contact, 'Contact', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Contact.jsx');
+	__REACT_HOT_LOADER__.register(Contact, 'Contact', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Contact.jsx');
 }();
 
 ;
@@ -24313,10 +24313,10 @@ var AboutMe = exports.AboutMe = function AboutMe() {
 		),
 		_react2.default.createElement(
 			'div',
-			{ className: 'row' },
+			{ className: 'row about' },
 			_react2.default.createElement(
 				'div',
-				{ className: 'col-4' },
+				{ className: 'col-4 col-m-12' },
 				_react2.default.createElement(
 					'h1',
 					null,
@@ -24326,7 +24326,7 @@ var AboutMe = exports.AboutMe = function AboutMe() {
 			),
 			_react2.default.createElement(
 				'div',
-				{ className: 'col-8 about-content' },
+				{ className: 'col-8 about-content col-m-12' },
 				_react2.default.createElement(
 					'h3',
 					null,
@@ -24353,7 +24353,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(AboutMe, 'AboutMe', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/About.jsx');
+	__REACT_HOT_LOADER__.register(AboutMe, 'AboutMe', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/About.jsx');
 }();
 
 ;
@@ -24405,7 +24405,7 @@ var SinglePage = exports.SinglePage = function SinglePage(_ref) {
     ),
     _react2.default.createElement(
       'article',
-      { className: 'col-8' },
+      { className: 'col-8 col-m-12' },
       _react2.default.createElement(
         'h1',
         { className: 'header' },
@@ -24427,7 +24427,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SinglePage, 'SinglePage', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Singlepage.jsx');
+  __REACT_HOT_LOADER__.register(SinglePage, 'SinglePage', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Singlepage.jsx');
 }();
 
 ;
@@ -24458,7 +24458,7 @@ var Sidebar = exports.Sidebar = function Sidebar() {
 
 	return _react2.default.createElement(
 		'aside',
-		{ className: 'sidebar col-4 ' },
+		{ className: 'sidebar col-4 col-m-12' },
 		_react2.default.createElement(SidebarNav, null)
 	);
 };
@@ -24494,9 +24494,9 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(Sidebar, 'Sidebar', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Sidebar.jsx');
+	__REACT_HOT_LOADER__.register(Sidebar, 'Sidebar', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Sidebar.jsx');
 
-	__REACT_HOT_LOADER__.register(SidebarNav, 'SidebarNav', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Sidebar.jsx');
+	__REACT_HOT_LOADER__.register(SidebarNav, 'SidebarNav', 'C:/Users/mmikos/Desktop/reactjsaseo/reactjsaseo/src/components/Sidebar.jsx');
 }();
 
 ;

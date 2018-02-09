@@ -166,4 +166,30 @@ article img {
 aside ul {
     padding: 0;
 }
+
+.list-elem img {
+    max-width: 80%;
+}
+
+.list-elem h3 {
+    margin: 0;
+}
+
+.list-elem {
+    margin-top: 15px;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-content {
+    margin-top: 20px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
 }

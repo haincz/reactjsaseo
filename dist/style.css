@@ -55,11 +55,13 @@ button a {
 .container {
 	width: 1200px;
 	margin: 0 auto;
+    max-width: 100%;
 }
 
 .row {
 	width: 1000px;
 	margin: 0 auto;
+    max-width: 100%;
 }
 
 p {
@@ -92,6 +94,11 @@ button:hover {
 
 article {
     float: left;
+    max-width: 100%;
+}
+
+.layout {
+    max-width: 100%;
 }
 
 .about-content {
@@ -131,3 +138,58 @@ article {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobie: */
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+.sidebar-menu {
+    position: relative;
+}
+
+article img {
+    max-width: 100%;
+}
+
+aside ul {
+    padding: 0;
+}
+
+.list-elem img {
+    max-width: 80%;
+}
+
+.list-elem h3 {
+    margin: 0;
+}
+
+.list-elem {
+    margin-top: 15px;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-content {
+    margin-top: 20px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+}
