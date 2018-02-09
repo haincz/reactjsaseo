@@ -1,6 +1,7 @@
 import React from 'react';
 import {content_data} from '../data';
 import MetaTags from 'react-meta-tags';
+import {Sidebar} from './Sidebar';
 
 export const SinglePage = ({ match }) => {
   
@@ -8,18 +9,19 @@ export const SinglePage = ({ match }) => {
     var pageId = data[match.params.id];
 
     return (
-       <div>
+       <div className ="row">
         
           <MetaTags>
             <title>{pageId.title}</title>
           </MetaTags>
         
-          <article>     
+          <article className="col-8">     
               <h1 className="header">{pageId.title}</h1>    
             <div className="content">
               <p dangerouslySetInnerHTML={ { __html: pageId.description} }></p>
             </div>
           </article>
+          <Sidebar />
         </div>
       )
   }

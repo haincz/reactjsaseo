@@ -865,6 +865,65 @@ module.exports = warning;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(52);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(56);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(34);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(58);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(61);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(64);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(66);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(35);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(20);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(72);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(74);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(76);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(77);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return createLocation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return locationsAreEqual; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(31);
@@ -937,7 +996,50 @@ var locationsAreEqual = function locationsAreEqual(a, b) {
 };
 
 /***/ }),
-/* 13 */
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var content_data = exports.content_data = [{
+	"id": 0,
+	"title": "Test React JS",
+	"lead": "Wszystkie informacje i dokumentacja dotycząca testu React JS na potrzeby SEO w wersji renderowania Clietn Side. Czy Google poradzi sobie i zaindeskuje poniższą stronę?",
+	"description": "<p>Test ten powstał w imię nauki, a czegoż by innego powstać m&oacute;gł? Argument&oacute;w za jego przeprowadzeniem miałem kilka, poszerzenie wiedzy, chęć zmierzenia się czymś nowym oraz poznanie jednego z najpopularniejszych framework&oacute;w od jego zaplecza, czyli od dupy strony.</p><p>Założenia testu składają się z kilku etap&oacute;w:</p><ol><li>Stworzenie strony w React &ndash; rękami SEOwca by lepiej zrozumieć mechanizm działania frameworka</li><li>Opublikowanie strony na serwerze dostępnym dla robot&oacute;w i ludzi rzecz jasna też</li><li>Podpięcie do narzędzi Google Search Console</li><li>Przesłanie do indeksu strony gł&oacute;wnej</li><li>Analiza strony w oparciu narzędzie GSC &ndash; gł&oacute;wnie pobranie jej jako Google</li><li>Sprawdzania cache strony w wyszukiwarce oraz indeksowania i prędkości tego indeksowania</li></ol><p>Dla os&oacute;b, kt&oacute;re nie miały do czynienia to od razu zaznaczę tutaj, że istnieje możliwość renderowania strony w React JS po stronie serwera, wartość i jakość takiego renderowania w służbie SEO jest na pewno wiele razy lepsza, ale ocena tej jakości i wartości zostanie dopiero przeprowadzona w kolejnych testach, po testach Client-Side.</p><p>R&oacute;żnica pomiędzy Client a Server jest ogromna. W przypadku Clien-Side widzimy tylko w źr&oacute;dle strony jeden element &lt;div&gt; w sekcji &lt;body&gt;, kt&oacute;ry pobierany jest przez React i metodą render tworzy wirtualne drzewo DOM, a następnie właściwy DOM.</p><p>Otwierając narzędzia dla developer&oacute;w, zobaczyć piękny szablon HTML, ale to właśnie jest coś, co może wprowadzić w błąd&hellip; a może i nie, bo przecież Google renderuje DOM, tylko kiedy, jak? Na te pytania właśnie ma też odpowiedzieć ten test.</p><p>W przypadku renderowania Server Side, mamy wygenerowany HTML dla żądanego adresu, przy czym ładowane są także pozostałe pliki JS, kt&oacute;re dają użytkownikowi możliwość poczucia, że strona działa Clinet Side. Z jednej strony brzmi fantastycznie, takie strony są szybkie i lekkie. Czy jednak na pewno są szybkie i lekkie dla robota wyszukiwarki. Ten temat jednak rozwiązany będzie na teście Reacta Server Side.</p><p>Starałem się napisać tą stronę zgodnie ze standardami, dlatego nie ma tutaj użytego natywnego Reacta, ale korzystam z szablon&oacute;w JSX, czyli tak jak to developerzy robią na co dzień. Co ważne, ten projekt nie pokazuje pełni możliwości React JS, bo nie ma w nim choćby ani jednego komponentu stanowego, ale one akurat dla pracy SEOwca nie są tak istotne.</p><p>Wszelka dostępna dokumentacja techniczna dostępna jest dla zainteresowanych na GitHubie: <a href=\"https://github.com/haincz/reactjsaseo/\">https://github.com/haincz/reactjsaseo/</a></p><p>Do stworzenia strony zostały użyte następujące biblioteki oraz pluginy:</p><p>&nbsp;&nbsp;&nbsp; react: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-dom: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-meta-tags: ^0.3.0</p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp; babel-core: ^6.26.0,</p><p>&nbsp;&nbsp;&nbsp; babel-loader: ^7.1.2,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-es2015: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react-hmre: ^1.1.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-stage-0: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; css-loader: ^0.28.9,</p><p>&nbsp;&nbsp;&nbsp; extract-text-webpack-plugin: ^3.0.2,</p><p>&nbsp;&nbsp;&nbsp; html-webpack-plugin: ^2.30.1,</p><p>&nbsp;&nbsp;&nbsp; react-hot-loader: ^3.1.3,</p><p>&nbsp;&nbsp;&nbsp; react-router: ^4.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-router-dom: ^4.2.2,</p><p>&nbsp;&nbsp;&nbsp; style-loader: ^0.19.1,</p><p>&nbsp;&nbsp;&nbsp; webpack: ^3.10.0,</p><p>&nbsp;&nbsp;&nbsp; webpack-dev-server: 2.11.1</p><p>Dodatkową istotną informacją jest fakt, że url tworzone są dynamicznie w oparciu o tak zwaną technologię History API.</p><h2>Dźień pierwszy:</h2><h3>site: 0</h3><h3>cache: czekamy do pierwszego zaindeksowania</h3><h3>widoczność fragmentu tekstu: j.w</h3><h3>Pobierz jako Google: </h3><img src='/src/image/fetchasgoogleday1.jpg'/>",
+	"image": "src/image/testreacjs.jpg"
+}, {
+	"id": 1,
+	"title": "Techniczne SEO",
+	"lead": "Kilka słów o tym czym dlaczego SEO to nie tylko linki i content, dlaczego Java Script nie musi być SEOowym Katharsis i dlaczego warto podejść do tematu SEO od tej strony",
+	"description": "<p>Techniczne SEO to jedno z ciekawszych wyzwań jakie stoją przed specjalistą SEO. Dzieje się tak z kilku powod&oacute;w:</p><ol><li>Musisz być na bieżąco ze wszystkimi zmianami i nowościami od Google</li><li>Cały czas się uczysz i rozwijasz, a uczyć się trzeba tu szybko i szybko reagować</li><li>Cały czas testujesz</li></ol><p>W przypadku technicznego SEO każdy dzień jest nieco inny i praca tutaj nie kończy się na kreatywnym&nbsp; wymyślaniu trend&oacute;w, materiał&oacute;w i dobierania do nich sł&oacute;w kluczowych czy też linkowaniu. Techniczne SEO wymaga pewnej dyscypliny, dużej koncentracji i odporności na b&oacute;l oczu z powodu przekrwienia. Techniczne SEO wymaga także kreatywności i stosowania czasem hack&oacute;w i szpagat&oacute;w, kt&oacute;re są &bdquo;dozwolone&rdquo; z og&oacute;lnie przyjętymi zasadami White Hat.</p><p>Czym tak naprawdę jest techniczne SEO?</p><p>Pomińmy kwestie redirect&oacute;w, nagł&oacute;wk&oacute;w, tytuł&oacute;w, alt&oacute;w w obrazkach, kod&oacute;w odpowiedzi czy sitemap (to wie każdy junior SEO) czy nawet test&oacute;w PageSpeed, bo to, że wrzucisz stronę do narzędzia Google, nie świadczy o technicznym SEO, ale jakie wnioski z tego się wyciągnie i co zrobi się z tym dalej już tak.</p><p>Osoba techniczna w SEO powinna znać narzędzia i wyciągać wnioski z raport&oacute;w, kt&oacute;re te narzędzia udostępniają. Tak naprawdę są dwa takie narzędzia, kt&oacute;re każdy SEO musi ogarniać: Google Search Console i Screamin Frog(lub zamienniki - ja używam froga).</p><p>Osoba techniczna SEO musi polubić się z Java Scriptem &ndash; doskonale jak umie napisać sw&oacute;j program, zna zależności i sposoby renderowania takiego programu jak i egzekwowania plik&oacute;w JS przez Google. Osoba techniczna SEO rozumie og&oacute;lnie działanie popularnych Framework&oacute;w, a aktualnie są to frameworki JS, wie co to jest History API i nieźle radzi sobie HTML 5 i CSS (jeżeli wiesz jak w CSS umieścić tekst, do kt&oacute;rego dostanie się Google Bot i będzie widoczny w cache, to już całkiem nieźle)</p><p>Kolejne kwestie to HTTPS, AMP, PWA, Mobile czy też dane strukturalne i relacje wynikające z tego: wiązane canonicalem, alternatem czy tez innymi tagami. Każdy z powyższych temat&oacute;w to temat na osobny rozdział w książce.</p><p>Techniczny SEO, to wsparcie dla SEO contentowego i dobra podstawa do tego, by ten content indeksował się poprawnie. Osoba odpowiedzialna za techniczne SEO musi być swego rodzaju SEO Homeopatą, kt&oacute;ry dostrzeże zależności i zagrożenia przy wszelkiego rodzaju wdrożeniach czy migracjach i dogada się łatwo z developerami używając języka 0-1, a nie poezji.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+	"image": "src/image/technicalseo.jpg"
+
+}, {
+	"id": 2,
+	"title": "Framework React JS",
+	"lead": "Przybliżenie frameworka React JS, który aktualnie jest jednym z najbardziej popularnych framworków",
+	"description": "<p>Tw&oacute;rcą React JS jest Jordan Walke, programista Facebooka, kt&oacute;ry inspirował się rozszerzeniem PHP &ndash; XHP. Framework JavaScriptowy znajduje swoje zastosowanie przy pisaniu interfejs&oacute;w aplikacji internetowych.<\/p><p>Cechą, kt&oacute;ra stanowi o wyjątkowości React jest wirtualny DOM. Dzięki niemu framework przechowuje cały DOM w pamięci, a po zmianie stanu &ndash; wykryciu r&oacute;żnic między wirtualnym DOM, właściwym DOM &ndash; aktualizuje tylko te elementy, kt&oacute;rych stan uległ zmianie.<\/p> <p>Kolejnym istotnym elementem, kt&oacute;ry wyr&oacute;żnia React jest JSX - rozszerzenie składniowe JavaScript, pozwalające tworzyć komponenty i opisać, jak powinien wyglądać interfejs użytkownika. &nbsp;JSX daje możliwość wstawiania kodu HTML (lub komponent&oacute;w React) bezpośrednio w kodzie, zamiast ciągu znak&oacute;w.<\/p> <p>Biblioteka REACT jest obecnie stosowana przez takie znane marki jak Netflix, Imgur, PayPal, Archive.org, Gamepedia, SeatGeek, HelloSign czy Walmart. W 2015 roku React.js był jednym z najpopularniejszych projekt&oacute;w na GitHubie, a obecnie jest jednym z najczęściej poruszanych wątk&oacute;w na developerskim forum Stack Overflow.<\/p>",
+	"image": "src/image/reactjs.jpg"
+
+}];
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(content_data, "content_data", "C:/Users/Mateusz/Desktop/reactjsaseo/src/data.js");
+}();
+
+;
+
+/***/ }),
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -968,7 +1070,7 @@ exports.MetaTagsContext = _meta_tags_context2.default;
 exports.ReactTitle = _react_title2.default;
 
 /***/ }),
-/* 14 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -984,7 +1086,7 @@ exports.ReactTitle = _react_title2.default;
 if (process.env.NODE_ENV !== 'production') {
   var invariant = __webpack_require__(7);
   var warning = __webpack_require__(11);
-  var ReactPropTypesSecret = __webpack_require__(15);
+  var ReactPropTypesSecret = __webpack_require__(17);
   var loggedTypeFailures = {};
 }
 
@@ -1035,7 +1137,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 15 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1054,66 +1156,7 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 16 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(52);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(56);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(34);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(58);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(61);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(64);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(66);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(35);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(19);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(72);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(74);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(76);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(77);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1197,7 +1240,7 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 };
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1288,18 +1331,18 @@ var createTransitionManager = function createTransitionManager() {
 exports.default = createTransitionManager;
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__ = __webpack_require__(21);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__["a" /* default */]);
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1418,7 +1461,7 @@ Router.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Router);
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1495,7 +1538,7 @@ var matchPath = function matchPath(pathname) {
 /* harmony default export */ __webpack_exports__["a"] = (matchPath);
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1578,49 +1621,6 @@ var createTransitionManager = function createTransitionManager() {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (createTransitionManager);
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-var content_data = exports.content_data = [{
-	"id": 0,
-	"title": "Test React JS",
-	"lead": "Wszystkie informacje i dokumentacja dotycząca testu React JS na potrzeby SEO w wersji renderowania Clietn Side. Czy Google poradzi sobie i zaindeskuje poniższą stronę?",
-	"description": "<p>Test ten powstał w imię nauki, a czegoż by innego powstać m&oacute;gł? Argument&oacute;w za jego przeprowadzeniem miałem kilka, poszerzenie wiedzy, chęć zmierzenia się czymś nowym oraz poznanie jednego z najpopularniejszych framework&oacute;w od jego zaplecza, czyli od dupy strony.</p><p>Założenia testu składają się z kilku etap&oacute;w:</p><ol><li>Stworzenie strony w React &ndash; rękami SEOwca by lepiej zrozumieć mechanizm działania frameworka</li><li>Opublikowanie strony na serwerze dostępnym dla robot&oacute;w i ludzi rzecz jasna też</li><li>Podpięcie do narzędzi Google Search Console</li><li>Przesłanie do indeksu strony gł&oacute;wnej</li><li>Analiza strony w oparciu narzędzie GSC &ndash; gł&oacute;wnie pobranie jej jako Google</li><li>Sprawdzania cache strony w wyszukiwarce oraz indeksowania i prędkości tego indeksowania</li></ol><p>Dla os&oacute;b, kt&oacute;re nie miały do czynienia to od razu zaznaczę tutaj, że istnieje możliwość renderowania strony w React JS po stronie serwera, wartość i jakość takiego renderowania w służbie SEO jest na pewno wiele razy lepsza, ale ocena tej jakości i wartości zostanie dopiero przeprowadzona w kolejnych testach, po testach Client-Side.</p><p>R&oacute;żnica pomiędzy Client a Server jest ogromna. W przypadku Clien-Side widzimy tylko w źr&oacute;dle strony jeden element &lt;div&gt; w sekcji &lt;body&gt;, kt&oacute;ry pobierany jest przez React i metodą render tworzy wirtualne drzewo DOM, a następnie właściwy DOM.</p><p>Otwierając narzędzia dla developer&oacute;w, zobaczyć piękny szablon HTML, ale to właśnie jest coś, co może wprowadzić w błąd&hellip; a może i nie, bo przecież Google renderuje DOM, tylko kiedy, jak? Na te pytania właśnie ma też odpowiedzieć ten test.</p><p>W przypadku renderowania Server Side, mamy wygenerowany HTML dla żądanego adresu, przy czym ładowane są także pozostałe pliki JS, kt&oacute;re dają użytkownikowi możliwość poczucia, że strona działa Clinet Side. Z jednej strony brzmi fantastycznie, takie strony są szybkie i lekkie. Czy jednak na pewno są szybkie i lekkie dla robota wyszukiwarki. Ten temat jednak rozwiązany będzie na teście Reacta Server Side.</p><p>Starałem się napisać tą stronę zgodnie ze standardami, dlatego nie ma tutaj użytego natywnego Reacta, ale korzystam z szablon&oacute;w JSX, czyli tak jak to developerzy robią na co dzień. Co ważne, ten projekt nie pokazuje pełni możliwości React JS, bo nie ma w nim choćby ani jednego komponentu stanowego, ale one akurat dla pracy SEOwca nie są tak istotne.</p><p>Wszelka dostępna dokumentacja techniczna dostępna jest dla zainteresowanych na GitHubie: <a href=\"https://github.com/haincz/reactjsaseo/\">https://github.com/haincz/reactjsaseo/</a></p><p>Do stworzenia strony zostały użyte następujące biblioteki oraz pluginy:</p><p>&nbsp;&nbsp;&nbsp; react: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-dom: ^16.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-meta-tags: ^0.3.0</p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp; babel-core: ^6.26.0,</p><p>&nbsp;&nbsp;&nbsp; babel-loader: ^7.1.2,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-es2015: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-react-hmre: ^1.1.1,</p><p>&nbsp;&nbsp;&nbsp; babel-preset-stage-0: ^6.24.1,</p><p>&nbsp;&nbsp;&nbsp; css-loader: ^0.28.9,</p><p>&nbsp;&nbsp;&nbsp; extract-text-webpack-plugin: ^3.0.2,</p><p>&nbsp;&nbsp;&nbsp; html-webpack-plugin: ^2.30.1,</p><p>&nbsp;&nbsp;&nbsp; react-hot-loader: ^3.1.3,</p><p>&nbsp;&nbsp;&nbsp; react-router: ^4.2.0,</p><p>&nbsp;&nbsp;&nbsp; react-router-dom: ^4.2.2,</p><p>&nbsp;&nbsp;&nbsp; style-loader: ^0.19.1,</p><p>&nbsp;&nbsp;&nbsp; webpack: ^3.10.0,</p><p>&nbsp;&nbsp;&nbsp; webpack-dev-server: 2.11.1</p><p>Dodatkową istotną informacją jest fakt, że url tworzone są dynamicznie w oparciu o tak zwaną technologię History API.</p><h2>Dźień pierwszy:</h2><h3>site: 0</h3><h3>cache: czekamy do pierwszego zaindeksowania</h3><h3>widoczność fragmentu tekstu: j.w</h3><h3>Pobierz jako Google: </h3><img src='/src/image/fetchasgoogleday1.jpg'/>",
-	"image": "src/image/testreacjs.jpg"
-}, {
-	"id": 1,
-	"title": "Techniczne SEO",
-	"lead": "Kilka słów o tym czym dlaczego SEO to nie tylko linki i content, dlaczego Java Script nie musi być SEOowym Katharsis i dlaczego warto podejść do tematu SEO od tej strony",
-	"description": "<p>Techniczne SEO to jedno z ciekawszych wyzwań jakie stoją przed specjalistą SEO. Dzieje się tak z kilku powod&oacute;w:</p><ol><li>Musisz być na bieżąco ze wszystkimi zmianami i nowościami od Google</li><li>Cały czas się uczysz i rozwijasz, a uczyć się trzeba tu szybko i szybko reagować</li><li>Cały czas testujesz</li></ol><p>W przypadku technicznego SEO każdy dzień jest nieco inny i praca tutaj nie kończy się na kreatywnym&nbsp; wymyślaniu trend&oacute;w, materiał&oacute;w i dobierania do nich sł&oacute;w kluczowych czy też linkowaniu. Techniczne SEO wymaga pewnej dyscypliny, dużej koncentracji i odporności na b&oacute;l oczu z powodu przekrwienia. Techniczne SEO wymaga także kreatywności i stosowania czasem hack&oacute;w i szpagat&oacute;w, kt&oacute;re są &bdquo;dozwolone&rdquo; z og&oacute;lnie przyjętymi zasadami White Hat.</p><p>Czym tak naprawdę jest techniczne SEO?</p><p>Pomińmy kwestie redirect&oacute;w, nagł&oacute;wk&oacute;w, tytuł&oacute;w, alt&oacute;w w obrazkach, kod&oacute;w odpowiedzi czy sitemap (to wie każdy junior SEO) czy nawet test&oacute;w PageSpeed, bo to, że wrzucisz stronę do narzędzia Google, nie świadczy o technicznym SEO, ale jakie wnioski z tego się wyciągnie i co zrobi się z tym dalej już tak.</p><p>Osoba techniczna w SEO powinna znać narzędzia i wyciągać wnioski z raport&oacute;w, kt&oacute;re te narzędzia udostępniają. Tak naprawdę są dwa takie narzędzia, kt&oacute;re każdy SEO musi ogarniać: Google Search Console i Screamin Frog(lub zamienniki - ja używam froga).</p><p>Osoba techniczna SEO musi polubić się z Java Scriptem &ndash; doskonale jak umie napisać sw&oacute;j program, zna zależności i sposoby renderowania takiego programu jak i egzekwowania plik&oacute;w JS przez Google. Osoba techniczna SEO rozumie og&oacute;lnie działanie popularnych Framework&oacute;w, a aktualnie są to frameworki JS, wie co to jest History API i nieźle radzi sobie HTML 5 i CSS (jeżeli wiesz jak w CSS umieścić tekst, do kt&oacute;rego dostanie się Google Bot i będzie widoczny w cache, to już całkiem nieźle)</p><p>Kolejne kwestie to HTTPS, AMP, PWA, Mobile czy też dane strukturalne i relacje wynikające z tego: wiązane canonicalem, alternatem czy tez innymi tagami. Każdy z powyższych temat&oacute;w to temat na osobny rozdział w książce.</p><p>Techniczny SEO, to wsparcie dla SEO contentowego i dobra podstawa do tego, by ten content indeksował się poprawnie. Osoba odpowiedzialna za techniczne SEO musi być swego rodzaju SEO Homeopatą, kt&oacute;ry dostrzeże zależności i zagrożenia przy wszelkiego rodzaju wdrożeniach czy migracjach i dogada się łatwo z developerami używając języka 0-1, a nie poezji.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-	"image": "src/image/technicalseo.jpg"
-
-}, {
-	"id": 2,
-	"title": "Framework React JS",
-	"lead": "Przybliżenie frameworka React JS, który aktualnie jest jednym z najbardziej popularnych framworków",
-	"description": "<p>Tw&oacute;rcą React JS jest Jordan Walke, programista Facebooka, kt&oacute;ry inspirował się rozszerzeniem PHP &ndash; XHP. Framework JavaScriptowy znajduje swoje zastosowanie przy pisaniu interfejs&oacute;w aplikacji internetowych.<\/p><p>Cechą, kt&oacute;ra stanowi o wyjątkowości React jest wirtualny DOM. Dzięki niemu framework przechowuje cały DOM w pamięci, a po zmianie stanu &ndash; wykryciu r&oacute;żnic między wirtualnym DOM, właściwym DOM &ndash; aktualizuje tylko te elementy, kt&oacute;rych stan uległ zmianie.<\/p> <p>Kolejnym istotnym elementem, kt&oacute;ry wyr&oacute;żnia React jest JSX - rozszerzenie składniowe JavaScript, pozwalające tworzyć komponenty i opisać, jak powinien wyglądać interfejs użytkownika. &nbsp;JSX daje możliwość wstawiania kodu HTML (lub komponent&oacute;w React) bezpośrednio w kodzie, zamiast ciągu znak&oacute;w.<\/p> <p>Biblioteka REACT jest obecnie stosowana przez takie znane marki jak Netflix, Imgur, PayPal, Archive.org, Gamepedia, SeatGeek, HelloSign czy Walmart. W 2015 roku React.js był jednym z najpopularniejszych projekt&oacute;w na GitHubie, a obecnie jest jednym z najczęściej poruszanych wątk&oacute;w na developerskim forum Stack Overflow.<\/p>",
-	"image": "src/image/reactjs.jpg"
-
-}];
-;
-
-var _temp = function () {
-	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-		return;
-	}
-
-	__REACT_HOT_LOADER__.register(content_data, "content_data", "C:/Users/Mateusz/Desktop/reactjsaseo/src/data.js");
-}();
-
-;
 
 /***/ }),
 /* 24 */
@@ -2291,7 +2291,7 @@ Link.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(22);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2509,7 +2509,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(16);
+var _reactRouterDom = __webpack_require__(12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2756,13 +2756,13 @@ var _reactDom = __webpack_require__(24);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(16);
+var _reactRouterDom = __webpack_require__(12);
 
 __webpack_require__(80);
 
 var _App = __webpack_require__(81);
 
-var _data = __webpack_require__(23);
+var _data = __webpack_require__(14);
 
 var _Layout = __webpack_require__(85);
 
@@ -2860,7 +2860,7 @@ var emptyObject = __webpack_require__(10);
 var invariant = __webpack_require__(7);
 var warning = __webpack_require__(11);
 var emptyFunction = __webpack_require__(5);
-var checkPropTypes = __webpack_require__(14);
+var checkPropTypes = __webpack_require__(16);
 
 // TODO: this is special because it gets imported during build.
 
@@ -4524,7 +4524,7 @@ var shallowEqual = __webpack_require__(28);
 var containsNode = __webpack_require__(29);
 var focusNode = __webpack_require__(30);
 var emptyObject = __webpack_require__(10);
-var checkPropTypes = __webpack_require__(14);
+var checkPropTypes = __webpack_require__(16);
 var hyphenateStyleName = __webpack_require__(48);
 var camelizeStyleName = __webpack_require__(50);
 
@@ -20061,7 +20061,7 @@ module.exports = camelize;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(20);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -20134,8 +20134,8 @@ var invariant = __webpack_require__(7);
 var warning = __webpack_require__(11);
 var assign = __webpack_require__(6);
 
-var ReactPropTypesSecret = __webpack_require__(15);
-var checkPropTypes = __webpack_require__(14);
+var ReactPropTypesSecret = __webpack_require__(17);
+var checkPropTypes = __webpack_require__(16);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -20681,7 +20681,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 var emptyFunction = __webpack_require__(5);
 var invariant = __webpack_require__(7);
-var ReactPropTypesSecret = __webpack_require__(15);
+var ReactPropTypesSecret = __webpack_require__(17);
 
 module.exports = function() {
   function shim(props, propName, componentName, location, propFullName, secret) {
@@ -20751,11 +20751,11 @@ var _invariant = __webpack_require__(4);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(17);
+var _LocationUtils = __webpack_require__(18);
 
 var _PathUtils = __webpack_require__(8);
 
-var _createTransitionManager = __webpack_require__(18);
+var _createTransitionManager = __webpack_require__(19);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -21056,7 +21056,7 @@ exports.default = createBrowserHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(20);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -21128,11 +21128,11 @@ var _invariant = __webpack_require__(4);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(17);
+var _LocationUtils = __webpack_require__(18);
 
 var _PathUtils = __webpack_require__(8);
 
-var _createTransitionManager = __webpack_require__(18);
+var _createTransitionManager = __webpack_require__(19);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -21463,7 +21463,7 @@ exports.default = createHashHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(21);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -21536,9 +21536,9 @@ var _warning2 = _interopRequireDefault(_warning);
 
 var _PathUtils = __webpack_require__(8);
 
-var _LocationUtils = __webpack_require__(17);
+var _LocationUtils = __webpack_require__(18);
 
-var _createTransitionManager = __webpack_require__(18);
+var _createTransitionManager = __webpack_require__(19);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -22447,7 +22447,7 @@ Redirect.contextTypes = {
 /* unused harmony reexport createHashHistory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(71);
 /* unused harmony reexport createMemoryHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(13);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__PathUtils__ = __webpack_require__(9);
@@ -22472,9 +22472,9 @@ Redirect.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(37);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -22776,9 +22776,9 @@ var createBrowserHistory = function createBrowserHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(37);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -23096,8 +23096,8 @@ var createHashHistory = function createHashHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PathUtils__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(23);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23282,7 +23282,7 @@ var createMemoryHistory = function createMemoryHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_history_PathUtils__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(21);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -23474,7 +23474,7 @@ StaticRouter.childContextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(22);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -23560,7 +23560,7 @@ Switch.propTypes = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__ = __webpack_require__(22);
 // Written in this round about way for babel-transform-imports
 
 
@@ -23718,9 +23718,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _Home = __webpack_require__(38);
 
-var _data = __webpack_require__(23);
+var _data = __webpack_require__(14);
 
-var _reactMetaTags = __webpack_require__(13);
+var _reactMetaTags = __webpack_require__(15);
 
 var _reactMetaTags2 = _interopRequireDefault(_reactMetaTags);
 
@@ -24137,7 +24137,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(16);
+var _reactRouterDom = __webpack_require__(12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24206,7 +24206,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactMetaTags = __webpack_require__(13);
+var _reactMetaTags = __webpack_require__(15);
 
 var _reactMetaTags2 = _interopRequireDefault(_reactMetaTags);
 
@@ -24292,7 +24292,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactMetaTags = __webpack_require__(13);
+var _reactMetaTags = __webpack_require__(15);
 
 var _reactMetaTags2 = _interopRequireDefault(_reactMetaTags);
 
@@ -24374,11 +24374,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _data = __webpack_require__(23);
+var _data = __webpack_require__(14);
 
-var _reactMetaTags = __webpack_require__(13);
+var _reactMetaTags = __webpack_require__(15);
 
 var _reactMetaTags2 = _interopRequireDefault(_reactMetaTags);
+
+var _Sidebar = __webpack_require__(90);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24391,7 +24393,7 @@ var SinglePage = exports.SinglePage = function SinglePage(_ref) {
 
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'row' },
     _react2.default.createElement(
       _reactMetaTags2.default,
       null,
@@ -24403,7 +24405,7 @@ var SinglePage = exports.SinglePage = function SinglePage(_ref) {
     ),
     _react2.default.createElement(
       'article',
-      null,
+      { className: 'col-8' },
       _react2.default.createElement(
         'h1',
         { className: 'header' },
@@ -24414,7 +24416,8 @@ var SinglePage = exports.SinglePage = function SinglePage(_ref) {
         { className: 'content' },
         _react2.default.createElement('p', { dangerouslySetInnerHTML: { __html: pageId.description } })
       )
-    )
+    ),
+    _react2.default.createElement(_Sidebar.Sidebar, null)
   );
 };
 ;
@@ -24425,6 +24428,75 @@ var _temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(SinglePage, 'SinglePage', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Singlepage.jsx');
+}();
+
+;
+
+/***/ }),
+/* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.SidebarNav = exports.Sidebar = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _data = __webpack_require__(14);
+
+var _reactRouterDom = __webpack_require__(12);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Sidebar = exports.Sidebar = function Sidebar() {
+
+	return _react2.default.createElement(
+		'aside',
+		{ className: 'sidebar col-4 ' },
+		_react2.default.createElement(SidebarNav, null)
+	);
+};
+
+var SidebarNav = exports.SidebarNav = function SidebarNav() {
+
+	var data = _data.content_data;
+
+	return _react2.default.createElement(
+		'div',
+		{ className: 'sidebar-menu' },
+		_react2.default.createElement(
+			'ul',
+			null,
+			data.map(function (data) {
+				return _react2.default.createElement(
+					'li',
+					{ key: data.id },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: { pathname: "/" + data.title.replace(/ /g, '-').toLowerCase() + "/" + data.id } },
+						data.title
+					)
+				);
+			})
+		)
+	);
+};
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(Sidebar, 'Sidebar', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Sidebar.jsx');
+
+	__REACT_HOT_LOADER__.register(SidebarNav, 'SidebarNav', 'C:/Users/Mateusz/Desktop/reactjsaseo/src/components/Sidebar.jsx');
 }();
 
 ;
