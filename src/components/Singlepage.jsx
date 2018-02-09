@@ -15,7 +15,7 @@ export const SinglePage = ({ match }) => {
             <title>{pageId.title}</title>
           </MetaTags>
         
-          <article className="col-8">     
+          <article className="col-8 col-m-12">     
               <h1 className="header">{pageId.title}</h1>    
             <div className="content">
               <p dangerouslySetInnerHTML={ { __html: pageId.description} }></p>

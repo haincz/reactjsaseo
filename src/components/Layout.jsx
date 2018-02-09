@@ -3,7 +3,7 @@ import {Navbar} from './Navbar';
 
 export const Layout = (props) => (
 
-  <div>
+  <div className="layout">
       <header className="container">
            <Navbar />
       </header>

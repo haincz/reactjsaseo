@@ -6,7 +6,7 @@ export const Sidebar = () => {
 
 	return (
 
-		<aside  className="sidebar col-4 ">
+		<aside  className="sidebar col-4 col-m-12">
 			<SidebarNav />
 		</aside>
 
