@@ -3,8 +3,8 @@ import {content_data} from '../data';
 import MetaTags from 'react-meta-tags';
 import {Sidebar} from './Sidebar';
 
-export const SinglePage = ({ match }) => {
-  
+export const SinglePage = ({match}) => {
+    
     var data = content_data;
     var pageId = data[match.params.id];
 
